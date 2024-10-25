@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* CSS for a lighter, fading dotted pattern */
+.bg-dotted-pattern {
+    background-image: 
+      radial-gradient(circle, rgba(128, 128, 128, 0.3) 1px, transparent 1px), /* Light gray dots */
+      linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, white 100%); /* Fades to white */
+    background-size: 10px 10px;
+    background-repeat: repeat;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  section {
+    scroll-margin-top: 80px; /* Adjust the value as needed */
+  }
