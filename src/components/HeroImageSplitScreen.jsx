@@ -7,7 +7,6 @@ const SUBTITLE_TEXT = "Subtitle text goes here.";
 const HeroImageSplitScreen = ({ bgImage = "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" }) => {
   return (
     <div className="relative bg-white">
-      {/* Custom dotted pattern background */}
       <div className="absolute inset-0 bg-dotted-pattern opacity-20"></div>
       <div className="relative py-24 sm:py-32 lg:pb-40">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
