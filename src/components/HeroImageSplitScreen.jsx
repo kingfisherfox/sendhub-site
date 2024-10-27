@@ -1,8 +1,8 @@
 import React from 'react';
 import banner from '../img/banner.png'
 
-const HEADLINE_TEXT = "Centered Title";
-const SUBTITLE_TEXT = "Subtitle text goes here.";
+const HEADLINE_TEXT = "Unlimited Forms, Unlimited Possibilities";
+const SUBTITLE_TEXT = "Create custom forms in seconds and send data to any endpoint with just a click. Free forever.";
 
 const HeroImageSplitScreen = ({ bgImage = "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" }) => {
   return (

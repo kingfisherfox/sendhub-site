@@ -1,19 +1,19 @@
 import React from 'react';
 
-const HEADING = "Our Features";
-const SUBHEADING = "Explore our exclusive features";
+const HEADING = "What Can Sendhub Do?";
+const SUBHEADING = "Sendhub is a chrome extention for power-users or Make, Zapier and other no code automation tools";
 const FEATURES = [
   {
-    name: 'Feature 1',
-    description: 'Here are the details about Feature 1.',
+    name: 'Trigger workflows',
+    description: 'Create a form that will post to any webhook directly from your browser that will trigger unlimied workflows in your no code tools',
   },
   {
-    name: 'Feature 2',
-    description: 'Here are the details about Feature 2.',
+    name: 'Unlimied forms ',
+    description: 'Text, numbers, multiple fields, whatever type of form you need to create, that will post the JSON content to your designatied webhook',
   },
   {
-    name: 'Feature 3',
-    description: 'Here are the details about Feature 3.',
+    name: 'No accounts',
+    description: 'Everything is stored locally on your browser so its safe and basically unhackable',
   },
 ];
 
